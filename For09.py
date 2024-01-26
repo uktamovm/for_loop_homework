@@ -6,4 +6,10 @@ def main(price):
     Returns:
         list: return  answer
     """
-    return
+    l=[]
+    for i in range(0,10):
+        l.append(price)
+        price+=2.25
+
+    return l
+print(main(2.25))
